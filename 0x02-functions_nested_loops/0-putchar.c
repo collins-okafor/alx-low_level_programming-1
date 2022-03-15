@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(int i, char p[])
+int main(void)
 {
 	int i;
 	char p[] = "_putchar";
