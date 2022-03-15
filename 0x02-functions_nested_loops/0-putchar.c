@@ -8,7 +8,6 @@
  *
  * Return: returns 0
  **/
-
 int main(void)
 {
 	char text[8] = "_putchar";
