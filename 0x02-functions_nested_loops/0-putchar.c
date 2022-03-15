@@ -8,11 +8,8 @@
  *
  * Return: returns 0
  */
-
-int main(void)
-{
 	int i = 0;
-	char p[8] = "_putchar";
+	char p[] = "_putchar";
 
 	for (i = 0; i < 8; i++)
 		{
@@ -20,4 +17,3 @@ int main(void)
 		}
 	_putchar("\n");
 	return (0);
-}
