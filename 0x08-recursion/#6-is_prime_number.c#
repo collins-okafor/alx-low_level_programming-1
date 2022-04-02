@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * is_prime_number - finds if a number is prime
+ * @n: input variable
+ * Return: 1 if input interger is prime else 0
+ */
+
+int is_prime_number(int n)
+{
+if [
+}
