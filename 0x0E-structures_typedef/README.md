@@ -5,7 +5,7 @@
 
 Directories | Description
 ----------- | -----------
-[dog.h](./dog.h) | Definea new type `struct dog` with the following elements \n
-* `name`, type = `char *`
-* `age`, type = `float`
-* `owner`, type = `char *`
+[dog.h](./dog.h) | Definea new type `struct dog` with the following elements
+ | * `name`, type = `char *`
+ | * `age`, type = `float`
+ | * `owner`, type = `char *`
