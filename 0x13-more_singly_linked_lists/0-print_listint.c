@@ -1,24 +1,23 @@
-#include <stddef.h>
-#include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
+#include "lists.h"
+
 /**
- * print_listint - prints all the elements of a list
+ * print_listint - Prints all the elements
+ * @h: Pointer to an int constant
  *
- * @h: Linked list to be printed
- *
- * Return: Size of list
- */
+ * Return: The number of mine
+**/
 
 size_t print_listint(const listint_t *h)
 {
-	int i = 0;
+unsigned int mine = 0;
 
-	while (h)
+	while (h != NULL)
 	{
-		printf("%d\n", h->n);
+		printf("%i\n", h->n);
 		h = h->next;
-		i++;
+		mine++;
 	}
-	return (i);
+
+return (mine);
 }
