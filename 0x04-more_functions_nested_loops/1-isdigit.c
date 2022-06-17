@@ -1,16 +1,13 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _isdigit - checks for digit input
- * @c: Variable text
+ * _isdigit - checks for a digit
+ * @c: the parameter to print
  *
- * Return: Always 0 (Success)
+ * Return: 1 or 0
  */
-
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
